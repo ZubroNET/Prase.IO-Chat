@@ -5,7 +5,7 @@ After=network.target
 [Service]
 WorkingDirectory=/usr/local/node/chat
 Environment=NODE_PORT=3001
-User=fetakryzner
+User=root
 Type=simple
 TimeoutSec=0
 PIDFile=/var/run/prase.pid
