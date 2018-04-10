@@ -1,0 +1,35 @@
+ <!-- 
+ Vycraftoval Zubrofyl 
+ 19.5.2K17 
+ v1.0.0 
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>prase chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Libor"/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">Zadej svoje jméno ty PRASE! </h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+  <script src="https://static.zubro.net/src/jQuery/3.x/jquery-3.2.1.min.js"></script>
+  <script src="https://static.zubro.net/src/socket.io/2.x/2.0.4/socket.io.js"></script>
+  <script src="/main.js"></script>
+<script>
+  var socket = io();
+</script>
+</body>
+</html>
