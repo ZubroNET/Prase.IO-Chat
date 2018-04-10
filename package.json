@@ -1,16 +1,16 @@
 {
-  "name": "socket.io-chat",
+  "name": "Prase.IO Chat",
   "version": "0.0.0",
   "description": "A simple chat client using socket.io",
-  "main": "index.js",
-  "author": "Grant Timmerman",
+  "main": "prasechat.js",
+  "author": "Zubrofyl",
   "private": true,
-  "license": "BSD",
+  "license": "BSD 3.0",
   "dependencies": {
     "express": "4.13.4",
     "socket.io": "^2.0.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node prasechat.js"
   }
 }
